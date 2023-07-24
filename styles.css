@@ -8,7 +8,6 @@
   display:flex;
   justify-content:center;
   align-items:center;
-  height:100vh;
   animation: rotation 2s infinite linear;
   position:absolute;
 }
