@@ -1,1 +1,20 @@
-/*  your css code here. If applicable */
+.line{
+  color:black;
+  width:200px;
+  height:2px;
+}
+.parentLine{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  animation: rotation 2s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
