@@ -2,6 +2,7 @@
   color:black;
   width:200px;
   height:2px;
+  background-color:black;
 }
 .parentLine{
   display:flex;
@@ -9,6 +10,7 @@
   align-items:center;
   height:100vh;
   animation: rotation 2s infinite linear;
+  position:absolute;
 }
 @keyframes rotation {
   from {
